@@ -5,10 +5,12 @@ import { AlertModule } from 'ngx-bootstrap/alert';
 
 
 @NgModule({
-  declarations: [ToastComponent],
   imports: [
     CommonModule,
-    AlertModule.forRoot(),
+    AlertModule.forRoot()
+  ],
+  declarations: [
+    ToastComponent
   ],
   exports: [
     ToastComponent
